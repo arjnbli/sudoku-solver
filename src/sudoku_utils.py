@@ -1,7 +1,6 @@
 class SudokuBoard:
     def __init__(self, board_list):
         self.board = self.populate_board(board_list)
-        self.solution = -1 
     
     def populate_board(self, board_list):
         board =  [[None for j in range(1,10)] for i in range(1,10)]
